@@ -1,0 +1,18 @@
+Lab7_Prob1_B
+
+equals Method in Employee Class:
+The equals method in the EmployeeB class is not correctly implemented. It should override the equals method from the Object class, and the parameter should be of type Object. 
+
+
+Lab7_Prob1_C
+
+The equals method in the Employee class is overridden correctly. However, if the hashCode method is not overridden and computed consistently with the equals method, it could lead to unexpected behavior when objects are used as keys in a HashMap.
+It's crucial to ensure that the hashCode method is consistent with the equals method.
+
+
+Lab7_Prob1_D
+
+The equals method and the hashCode method in the Employee class is overridden correctly. However, the size of both lists is not the same
+ and the values they contain are not equal
+
+
